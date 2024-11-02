@@ -11,6 +11,11 @@ test('TestLoginPage',async ({page})=>
  obj.LoginMethod('Admin','admin123');
  await page.waitForTimeout(4000);
 
+ url=http://182.76.79.236:7004/
+ username=fsts1
+ password=96385
+ 
+
  //Home
  const obj2=new MyInfo(page);
  obj2.ClickButtons();

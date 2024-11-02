@@ -3,11 +3,10 @@ const { link } = require('fs');
 
 test('HandleInputBox',async({page})=>
 {
-await page.goto('https://rahulshettyacademy.com/AutomationPractice/')
-
-await page.getByPlaceholder('Enter Your Name').fill('Test App')
-
-await page.pause()
+//await page.goto('https://rahulshettyacademy.com/AutomationPractice/')
+await page.goto('/');
+await page.getByPlaceholder('Enter Your Name').fill('Test App');
+//await page.pause()
 
 
     
