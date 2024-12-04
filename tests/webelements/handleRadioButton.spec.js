@@ -9,7 +9,4 @@ await page.locator("//input[@value='radio2']").click()
 
 await page.pause()
 
-
-    
-
 });

@@ -12,6 +12,7 @@ await page.keyboard.down('Tab');
 await page.keyboard.press('Control+V');
 await page.keyboard.press('A');
 await page.keyboard.press('B');
+await page.locator('#kasjflk').press('ENTER');
 //await page.keyboard.up('Tab')
 //await page.keyboard.press('Control+V')
 
